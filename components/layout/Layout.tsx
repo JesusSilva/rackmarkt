@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import CallToAction from './CallToAction'
 import Footer from './Footer'
-import HeaderFullWidth from './HeaderFullWidth'
+import Header from './Header'
 
 type Props = {
   children: React.ReactNode
@@ -12,7 +12,7 @@ function Layout({ children }: Props) {
 
   return (
     <>
-      {router.pathname !== '/404' && <HeaderFullWidth />}
+      {router.pathname !== '/404' && <Header />}
       {children}
       {router.pathname !== '/404' && <CallToAction />}
       {router.pathname !== '/404' && <Footer />}

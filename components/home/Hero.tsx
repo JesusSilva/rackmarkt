@@ -1,6 +1,6 @@
 export default function HeroHome() {
   return (
-    <div className="relative xl:bg-white overflow-hidden mt-20 sm:mt-16">
+    <div className="relative xl:bg-white overflow-hidden mt-20 sm:mt-[88px]">
       <div className="bg-[url('../public/images/persons/calm-portrait.jpeg')] sm:bg-[url('../public/images/persons/calm.jpeg')] bg-center bg-blend-screen bg-cover bg-no-repeat bg-gray-700 max-w-screen-2xl mx-auto -md:mx-0 xl:bg-white">
         <div className="relative z-10 py-8 sm:py-16 md:py-20 lg:max-w-screen-md lg:w-full lg:py-28 xl:py-32 h-full xl:bg-white">
           <svg
@@ -18,8 +18,8 @@ export default function HeroHome() {
                 Despreocúpate de tu <b className="text-emerald-600">negocio online</b>
               </h1>
               <p className="mt-3 text-base text-white xl:text-gray-500 md:mt-5 md:text-lg md:max-w-xl md:mx-auto lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
-                cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat
+                commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">

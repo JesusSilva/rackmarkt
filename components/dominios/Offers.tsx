@@ -26,26 +26,22 @@ export default function Offers() {
   return (
     <div className="bg-white">
       {/* Header */}
-      <div className="relative pb-32 bg-gray-800">
+      <div className="relative pb-32 bg-gray-600">
         <div className="absolute inset-0">
           <img
             className="w-full h-full object-cover"
             src="./images/persons/happy-woman-packs.jpeg"
             alt=""
           />
-          <div
-            className="absolute inset-0 bg-gray-500 mix-blend-multiply"
-            aria-hidden="true"
-          />
+          <div className="absolute inset-0 bg-blue-400 mix-blend-multiply" aria-hidden="true" />
         </div>
         <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">
             Registra tu dominio ahora y disfruta de los siguientes packs!
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-emerald-200">
-            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id
-            malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames. Dui,
-            amet, nec sit pulvinar.
+            Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non.
+            Cras aliquet purus dui laoreet diam sed lacus, fames. Dui, amet, nec sit pulvinar.
           </p>
         </div>
       </div>
@@ -60,10 +56,7 @@ export default function Offers() {
         </h2>
         <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
           {offers.map((offer) => (
-            <div
-              key={offer.name}
-              className="flex flex-col bg-white rounded-2xl shadow-xl"
-            >
+            <div key={offer.name} className="flex flex-col bg-white rounded-2xl shadow-xl">
               <div className="flex-1 relative p-6 md:px-8">
                 <img
                   className="h-10 w-10 mb-4 text-white"

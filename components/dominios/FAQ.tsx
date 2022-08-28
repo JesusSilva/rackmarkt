@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/outline'
+import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
   {
@@ -94,9 +94,7 @@ export default function FAQDominios() {
                       <>
                         <dt className="text-lg">
                           <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                            <span className="font-medium text-gray-900">
-                              {faq.question}
-                            </span>
+                            <span className="font-medium text-gray-900">{faq.question}</span>
                             <span className="ml-6 h-7 flex items-center">
                               <ChevronDownIcon
                                 className={classNames(
@@ -125,9 +123,7 @@ export default function FAQDominios() {
                       <>
                         <dt className="text-lg">
                           <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                            <span className="font-medium text-gray-900">
-                              {faq.question}
-                            </span>
+                            <span className="font-medium text-gray-900">{faq.question}</span>
                             <span className="ml-6 h-7 flex items-center">
                               <ChevronDownIcon
                                 className={classNames(

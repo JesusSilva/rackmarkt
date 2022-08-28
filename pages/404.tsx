@@ -1,10 +1,4 @@
-import {
-  BookmarkAltIcon,
-  BookOpenIcon,
-  ChevronRightIcon,
-  RssIcon,
-  ViewListIcon
-} from '@heroicons/react/outline'
+import { BookmarkIcon, BookOpenIcon, ChevronRightIcon, RssIcon } from '@heroicons/react/24/outline'
 
 const links = [
   {
@@ -15,12 +9,12 @@ const links = [
   {
     title: 'API Reference',
     description: 'A complete API reference for our libraries',
-    icon: ViewListIcon
+    icon: BookOpenIcon
   },
   {
     title: 'Guides',
     description: 'Installation guides that cover popular setups',
-    icon: BookmarkAltIcon
+    icon: BookmarkIcon
   },
   { title: 'Blog', description: 'Read our latest news and articles', icon: RssIcon }
 ]

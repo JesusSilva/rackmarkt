@@ -49,8 +49,8 @@ export default function CategoriesHome() {
           <span className="block">Tu web en buenas manos.</span>
         </h2>
         <p className="mt-5 mb-8 text-lg leading-6 text-gray-500">
-          En Rackmarkt te ofrecemos las mejores soluciones para alojar tu proyecto web y
-          registrar tu dominio, así como un equipo especializado de soporte.
+          En Rackmarkt te ofrecemos las mejores soluciones para alojar tu proyecto web y registrar
+          tu dominio, así como un equipo especializado de soporte.
         </p>
 
         <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-8">

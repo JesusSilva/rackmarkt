@@ -1,6 +1,6 @@
 export default function CallToAction() {
   return (
-    <div className="relative bg-gray-700">
+    <div className="relative bg-blue-600">
       <div className="h-56 bg-emerald-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
           className="w-full h-full object-cover"
@@ -25,7 +25,7 @@ export default function CallToAction() {
             <div className="inline-flex rounded-md shadow">
               <a
                 href="#"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
+                className="inline-flex items-center justify-center px-5 py-3 border border-emerald-600 text-base font-medium rounded-md text-white bg-emerald-600 hover:bg-emerald-700"
               >
                 Contactenos y te llamamos
               </a>
