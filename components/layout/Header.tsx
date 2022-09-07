@@ -24,7 +24,7 @@ export default function Header() {
                   src="/images/logos/rackmarkt_isotipo.png"
                   alt="Logo Rackmarkt"
                 />
-                <span className="text-white text-4xl tracking-widest font-semibold ml-2">
+                <span className="text-white text-3xl md:text-4xl tracking-widest font-semibold ml-2">
                   RACKMARKT
                 </span>
               </a>
@@ -140,18 +140,21 @@ export default function Header() {
           className="absolute top-0 inset-x-0 transition transform origin-top-right md:hidden z-20"
         >
           <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-            <div className="pt-5 pb-6 px-5">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center">
-                  <img
-                    className="h-8 w-auto sm:h-10"
-                    src="/images/logos/rackmarkt_isotipo.png"
-                    alt="Logo Rackmarkt"
-                  />
-                  <span className="text-gray-700 text-4xl tracking-widest font-semibold ml-2">
-                    RACKMARKT
-                  </span>
-                </div>
+            <div className="">
+              <div className="flex items-center justify-between pt-5 pb-5 px-5">
+                <Link href="/">
+                  <a className="flex items-center">
+                    <span className="sr-only">Rackmarkt</span>
+                    <img
+                      className="h-8 w-auto sm:h-10"
+                      src="/images/logos/rackmarkt_isotipo.png"
+                      alt="Logo Rackmarkt"
+                    />
+                    <span className="text-3xl md:text-4xl tracking-widest font-semibold ml-2">
+                      RACKMARKT
+                    </span>
+                  </a>
+                </Link>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset">
                     <span className="sr-only">Close menu</span>
@@ -159,65 +162,79 @@ export default function Header() {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="mt-6">
+              <div
+                className="px-5 pb-5 overflow-y-auto"
+                style={{ maxHeight: 'calc(100vh - 186px)' }}
+              >
                 <nav className="grid">
-                  {Object.entries(Menu).map(([key, value]) =>
-                    value.items.length > 0 ? (
-                      <Disclosure key={key} as="div" className="pt-6">
-                        {({ open }) => (
-                          <>
-                            <dt className="text-lg">
-                              <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
-                                <span className="font-medium text-gray-900">{value.title}</span>
-                                <span className="ml-6 h-7 flex items-center">
-                                  <ChevronDownIcon
-                                    className={classNames(
-                                      open ? '-rotate-180' : 'rotate-0',
-                                      'h-6 w-6 transform'
-                                    )}
-                                    aria-hidden="true"
-                                  />
-                                </span>
-                              </Disclosure.Button>
-                            </dt>
-                            <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                              {value.items.length > 0 &&
-                                value.items.map((item) => (
-                                  <Link key={item.name} href={item.href}>
-                                    <a className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                                      <item.icon
-                                        className="flex-shrink-0 h-6 w-6 text-indigo-600"
-                                        aria-hidden="true"
-                                      />
-                                      <div className="ml-4">
-                                        <p className="text-base font-medium text-gray-900">
-                                          {item.name}
-                                        </p>
-                                        <p className="mt-1 text-sm text-gray-500">
-                                          {item.description}
-                                        </p>
-                                      </div>
-                                    </a>
-                                  </Link>
-                                ))}
-                            </Disclosure.Panel>
-                          </>
-                        )}
-                      </Disclosure>
-                    ) : (
-                      <span className="font-medium text-lg text-gray-900 pt-6">{value.title}</span>
-                    )
-                  )}
+                  {Object.entries(Menu).map(([key, value]) => (
+                    <div key={key} className="pt-6">
+                      {value.items.length > 0 ? (
+                        <Disclosure as="div">
+                          {({ open }) => (
+                            <>
+                              <dt className="text-lg">
+                                <Disclosure.Button className="text-left w-full flex justify-between items-start text-gray-400">
+                                  <span className="font-medium text-gray-900">{value.title}</span>
+                                  <span className="ml-6 h-7 flex items-center">
+                                    <ChevronDownIcon
+                                      className={classNames(
+                                        open ? '-rotate-180' : 'rotate-0',
+                                        'h-6 w-6 transform'
+                                      )}
+                                      aria-hidden="true"
+                                    />
+                                  </span>
+                                </Disclosure.Button>
+                              </dt>
+                              <Disclosure.Panel as="dd" className="mt-2">
+                                {value.items.length > 0 &&
+                                  value.items.map((item) => (
+                                    <Link key={item.name} href={item.href}>
+                                      <a className="p-4 mt-4 mb-4 flex items-start rounded-lg hover:bg-gray-100">
+                                        {value.title !== 'Cloud' && value.title !== 'Servicios' ? (
+                                          <item.icon
+                                            className="flex-shrink-0 h-6 w-6"
+                                            aria-hidden="true"
+                                          />
+                                        ) : (
+                                          <img
+                                            className="h-6 w-6"
+                                            alt={`Logo ${item.name}`}
+                                            src={`/images/brands/${item.icon}`}
+                                            aria-hidden="true"
+                                          />
+                                        )}
+                                        <div className="ml-4">
+                                          <p className="text-base font-medium text-gray-900">
+                                            {item.name}
+                                          </p>
+                                          <p className="mt-1 text-sm text-gray-500">
+                                            {item.description}
+                                          </p>
+                                        </div>
+                                      </a>
+                                    </Link>
+                                  ))}
+                              </Disclosure.Panel>
+                            </>
+                          )}
+                        </Disclosure>
+                      ) : (
+                        <span className="font-medium text-lg text-gray-900">{value.title}</span>
+                      )}
+                    </div>
+                  ))}
                 </nav>
               </div>
             </div>
 
             {/* Menu responsive - Footer */}
-            <div className="py-6 px-5 space-y-6">
+            <div className="py-5 px-5 bg-gray-100 rounded-lg">
               <p className="text-gray-500 flex items-center">
-                <div className="h-16 w-16">
+                <span className="h-16 w-16">
                   <GiftIcon className="h-full w-full" />
-                </div>
+                </span>
                 <span className="ml-6">
                   Este mes con la compra de un vps elite, llevese un dominio de regalo.
                 </span>
