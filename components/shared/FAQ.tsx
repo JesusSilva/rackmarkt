@@ -65,7 +65,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-white">
       <div className=" max-w-screen-2xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
         <div className="mx-auto">
           <h2 className="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl mb-12">
