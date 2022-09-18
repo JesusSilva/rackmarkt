@@ -58,7 +58,7 @@ function classNames(...classes) {
 function Pricing() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-screen-2xl bg-white py-16 sm:py-24 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
         <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Tu Microsoft 365 con todo lo que necesitas en un único lugar
         </p>
