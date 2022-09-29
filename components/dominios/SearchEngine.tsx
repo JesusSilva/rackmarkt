@@ -1,6 +1,6 @@
 export default function SearchEngine() {
   return (
-    <div className="bg-blue-600">
+    <div className="bg-blue-600 py-12" id="registrar">
       <div className="max-w-screen-2xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center">
         <div className="lg:w-2/4 lg:flex-1">
           <h2

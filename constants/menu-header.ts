@@ -4,7 +4,6 @@ import {
   CpuChipIcon,
   CubeIcon,
   CurrencyEuroIcon,
-  EnvelopeIcon,
   GlobeAltIcon,
   KeyIcon,
   ServerIcon
@@ -19,28 +18,28 @@ const menu = {
       {
         name: 'Registrar',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/dominios/registrar',
+          'Comprueba si tu dominio está libre y regístralo al mejor precio. Nos encargamos de todo, ¡Nunca ha sido tan fácil empezar!',
+        href: '/dominios/#registrar',
         icon: GlobeAltIcon
       },
       {
         name: 'Transferir',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/dominios/transferir',
+          'Transfiere tu dominio. Con multitud de funciones y el mejor soporte para que no te preocupes por nada.',
+        href: '/dominios/#transferir',
         icon: ArrowsRightLeftIcon
       },
       {
         name: 'Precios',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/dominios/precios-dominios',
+          'Conoce los cientos de extensiones disponibles y encuentra la combinación perfecta para tu proyecto.',
+        href: '/dominios/#precios-dominios',
         icon: CurrencyEuroIcon
       },
       {
         name: 'SSL',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'Ofrece la máxima protección y gánate la confianza de tus visitantes haciendo que tu web sea un sitio seguro.',
         href: '/dominios/ssl',
         icon: KeyIcon
       }
@@ -54,30 +53,23 @@ const menu = {
       {
         name: 'SSD Lite',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'Alojamiento con la mejor relación calidad-precio, sin renunciar a prestaciones y con el soporte que necesitas.',
         href: '/hosting/ssd-lite',
         icon: CubeIcon
       },
       {
         name: 'SSD Plus',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'Alto rendimiento con más recursos garantizados y el mejor servicio. ¡Haz que tu web vuele con Rackmarkt!',
         href: '/hosting/ssd-plus',
         icon: CubeIcon
       },
       {
         name: 'SSD Reseller',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'Proporciona a tus clientes la calidad y fiablididad que te caracterizan, también en su alojamiento web.',
         href: '/hosting/ssd-reseller',
         icon: CubeIcon
-      },
-      {
-        name: 'Correo',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/hosting/correo',
-        icon: EnvelopeIcon
       }
     ]
   },
@@ -87,37 +79,23 @@ const menu = {
     popover: true,
     items: [
       {
-        name: 'Administrado Lite',
+        name: 'Administrado',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/vps/administrado-lite',
-        icon: ServerIcon
-      },
-      {
-        name: 'Administrado Plus',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/vps/administrado-plus',
-        icon: ServerIcon
-      },
-      {
-        name: 'Administrado Élite',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
-        href: '/vps/administrado-elite',
+          'Servidores VPS con cPanel preparados para que tu web rinda al máximo. El mantenimiento es cosa nuestra.',
+        href: '/vps/administrado',
         icon: ServerIcon
       },
       {
         name: 'No Administrado',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'Acceso root a tu entorno privado, con recursos garantizados y la última tecnología a tu disposición.',
         href: '/vps/no-administrado',
         icon: CpuChipIcon
       },
       {
-        name: 'A medida',
+        name: 'A Medida',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'Configura un servidor acorde a las necesidades de tu proyecto, te ofrecemos exactamente lo que necesitas.',
         href: '/vps/a-medida',
         icon: AdjustmentsVerticalIcon
       }
@@ -131,14 +109,14 @@ const menu = {
       {
         name: 'Microsoft 365',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'La nube inteligente de Microsoft que te ayuda a digitalizar tu negocio y comunicarte con tu equipo.',
         href: '/cloud/microsoft-365',
         icon: 'microsoft.png'
       },
       {
         name: 'Google Business',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+          'La suite de aplicaciones de Google para optimizar la productividad, colaboración y seguridad en tu empresa.',
         href: '/cloud/google-business',
         icon: 'google.png'
       }
@@ -163,36 +141,31 @@ const menu = {
     items: [
       {
         name: 'Backup Externo',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+        description: '',
         href: '/servicios/backup-externo',
         icon: 'backup.svg'
       },
       {
         name: 'VPN',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+        description: '',
         href: '/servicios/vpn',
         icon: 'vpn.svg'
       },
       {
         name: 'CPanel',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+        description: '',
         href: '/servicios/cpanel',
         icon: 'cpanel.svg'
       },
       {
         name: 'Plesk',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+        description: '',
         href: '/servicios/plesk',
         icon: 'plesk.svg'
       },
       {
         name: 'LiteSpeed',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae animi voluptate provident quod, autem officia dolorem similique, tempora fuga quisquam esse, reiciendis corporis suscipit optio deleniti molestiae sunt! Eius, eligendi?',
+        description: '',
         href: '/servicios/litespeed',
         icon: 'litespeed.svg'
       }

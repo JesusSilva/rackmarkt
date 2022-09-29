@@ -4,8 +4,7 @@ const products = [
     name: 'Registrar',
     href: '#',
     price: 'Desde 9,99€',
-    description:
-      'Magna ut deserunt anim labore ut irure mollit ad ad irure non nostrud amet.',
+    description: 'Magna ut deserunt anim labore ut irure mollit ad ad irure non nostrud amet.',
     imageSrc: './images/icons/registrar-dominios.svg',
     imageAlt: 'Icono Registrar.'
   },
@@ -40,14 +39,14 @@ const products = [
 ]
 export default function CategoriesDominios() {
   return (
-    <div className="bg-white">
+    <div className="bg-white py-12" id="precios-dominios">
       <div className="max-w-screen-2xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <h2 className="text-3xl font-extrabold text-gray-700 sm:text-4xl">
           <span className="block">Algunos de nuestros servicios son...</span>
         </h2>
         <p className="mt-5 mb-8 text-lg leading-6 text-gray-500">
-          En Rackmarkt te ofrecemos las mejores soluciones para alojar tu proyecto web y
-          registrar tu dominio, así como un equipo especializado de soporte.
+          En Rackmarkt te ofrecemos las mejores soluciones para alojar tu proyecto web y registrar
+          tu dominio, así como un equipo especializado de soporte.
         </p>
 
         <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-8">
