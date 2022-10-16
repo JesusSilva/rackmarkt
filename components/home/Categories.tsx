@@ -1,3 +1,6 @@
+import Paragraph from '../texts/Paragraph'
+import Subtitle from '../texts/Subtitle'
+
 const products = [
   {
     id: 1,
@@ -45,13 +48,11 @@ export default function CategoriesHome() {
   return (
     <div className="bg-white">
       <div className="max-w-screen-2xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <h2 className="text-3xl font-extrabold text-gray-700 sm:text-4xl">
-          <span className="block">Tu web en buenas manos.</span>
-        </h2>
-        <p className="mt-5 mb-8 text-lg leading-6 text-gray-500">
-          En Rackmarkt te ofrecemos las mejores soluciones para alojar tu proyecto web y registrar
-          tu dominio, así como un equipo especializado de soporte.
-        </p>
+        <Subtitle text="Tu web en buenas manos." color="blue" type="h2" />
+        <Paragraph
+          text="En Rackmarkt te ofrecemos las mejores soluciones para alojar tu proyecto web y registrar tu dominio, así como un equipo especializado de soporte."
+          color="gray"
+        />
 
         <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-4 lg:gap-x-8">
           {products.map((product) => (

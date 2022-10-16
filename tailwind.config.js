@@ -3,7 +3,15 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  content: ['./pages/**/*.{html,js,jsx,ts,tsx}', './components/**/*.{html,js,jsx,ts,tsx}'],
+  content: [
+    './pages/**/*.{html,js,jsx,ts,tsx}',
+    './components/**/*.{html,js,jsx,ts,tsx}'
+  ],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms')
+  ],
   theme: {
     extend: {},
     colors: {
@@ -62,6 +70,5 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px'
     }
-  },
-  plugins: [require('@tailwindcss/aspect-ratio')]
+  }
 }
