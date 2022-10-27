@@ -18,7 +18,11 @@ function Hero() {
           </svg>
           <main className="py-10 mx-auto px-4 sm:py-12 sm:px-6 md:py-16 lg:py-20 lg:px-8 xl:py-28">
             <div className="sm:text-center lg:text-left">
-              <Title start="Entornos privados para " strong="todos los gustos" />
+              <Title
+                start="LiteSpeed: "
+                strong="rendimiento, seguridad y compatibilidad "
+                end="mientras ahorras recursos."
+              />
               <Paragraph
                 text="Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua."
                 color="gray"
