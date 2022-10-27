@@ -2,6 +2,7 @@
   "files.exclude": {
     ".vscode": true,
     ".husky": true,
-    ".next": true
+    ".next": true,
+    "node_modules": true
   }
 }

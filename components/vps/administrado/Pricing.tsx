@@ -50,7 +50,7 @@ const tiers = [
     ]
   },
   {
-    name: 'Enterprise',
+    name: 'Enterprises',
     href: '#',
     priceMonthly: 48,
     description: 'All the basics for starting a new business',
