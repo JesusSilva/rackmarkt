@@ -28,26 +28,26 @@ function Description() {
         {parragraphs.map((p, i) => (
           <div
             key={p.text}
-            className="mx-auto max-w-screen-2xl flex flex-col-reverse lg:flex-row items-center justify-between pb-8"
+            className="mx-auto pb-8 max-w-screen-2xl flex justify-between"
           >
             {i === 0 ? (
-              <>
-                <div className="flex items-center max-w-6xl lg:pr-10">
+              <div className="flex flex-col-reverse items-center md:flex-row">
+                <div className="flex items-center max-w-6xl md:pr-10">
                   <p className="mt-5 text-xl text-blue-600">{p.text}</p>
                 </div>
                 <div className="w-32 min-w-[10rem] min-h-[10rem] mb-8 lg:mb-0 flex items-center">
                   <img src={p.imageSrc} alt={p.imageAlt} />
                 </div>
-              </>
+              </div>
             ) : (
-              <>
+              <div className="flex flex-col items-center md:flex-row">
                 <div className="w-32 min-w-[10rem] min-h-[10rem] mb-8 lg:mb-0 flex items-center">
                   <img src={p.imageSrc} alt={p.imageAlt} />
                 </div>
-                <div className="flex items-center max-w-6xl lg:pr-10">
+                <div className="flex items-center max-w-6xl md:pl-10 sm:order-1">
                   <p className="mt-5 text-xl text-blue-600">{p.text}</p>
                 </div>
-              </>
+              </div>
             )}
           </div>
         ))}

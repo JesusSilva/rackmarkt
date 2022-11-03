@@ -2,7 +2,7 @@ export default function Description() {
   return (
     <div className="bg-gray-50">
       <div className="mx-auto max-w-screen-2xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-24 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-blue-600 sm:text-4xl mr-24">
+        <h2 className="text-3xl font-bold tracking-tight text-blue-600 text-center lg:text-left sm:text-4xl lg:mr-24">
           <span className="block">Backup rápido y seguro</span>
           <span className="block text-blue-600">
             en servidores externos especializados.
@@ -19,9 +19,9 @@ export default function Description() {
             Ver planes
           </a>
         </h2>
-        <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <div className="mt-8 flex justify-center lg:mt-0 lg:flex-shrink-0">
           <img
-            className="object-cover max-w-md"
+            className="object-cover max-w-xs lg:max-w-md"
             src="../images/brands/jetbackup.svg"
             alt="JetBackup"
           />
