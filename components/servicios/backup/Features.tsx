@@ -1,77 +1,209 @@
-import { CheckIcon } from '@heroicons/react/24/outline'
+import {
+  ArrowPathIcon,
+  CloudArrowUpIcon,
+  CogIcon,
+  LockClosedIcon,
+  ServerIcon,
+  ShieldCheckIcon
+} from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Configuraciones de cPanel',
+    name: 'Copias incrementales',
     description:
-      'Tempor tellus in aliquet eu et sit nulla tellus. Suspendisse est, molestie blandit quis ac. Lacus.'
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: CloudArrowUpIcon
   },
   {
-    name: 'Cron Jobs',
+    name: 'Copias comprimidas',
     description:
-      'Ornare donec rhoncus vitae nisl velit, neque, mauris dictum duis. Nibh urna non parturient.'
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: LockClosedIcon
   },
   {
-    name: 'Directorios Home de tus cuentas',
+    name: '100% Autoservicio',
     description:
-      'Etiam cras augue ornare pretium sit malesuada morbi orci, venenatis. Dictum lacus.'
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: ArrowPathIcon
   },
   {
-    name: 'Zonas DNS',
+    name: 'Soporte especializado',
     description:
-      'Interdum quam pulvinar turpis tortor, egestas quis diam amet, natoque. Mauris sagittis.'
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: ShieldCheckIcon
   },
   {
-    name: 'Certificados SSL',
+    name: 'Servidores de respaldo',
     description:
-      'Ullamcorper in ipsum ac feugiat. Senectus at aliquam vulputate mollis nec. In at risus odio.'
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: CogIcon
   },
   {
-    name: 'Bases de datos y sus usuarios',
+    name: 'Database Backups',
     description:
-      'Magna a vel sagittis aliquam eu amet. Et lorem auctor quam nunc odio. Sed bibendum.'
-  },
-  {
-    name: 'Cuentas de correo y su contenido',
-    description:
-      'Sed mi, dapibus turpis orci posuere integer. A porta viverra posuere adipiscing turpis.'
-  },
-  {
-    name: 'Cuentas FTP',
-    description:
-      'Quisque sapien nunc nisl eros. Facilisis sagittis maecenas id dignissim tristique proin sed.'
+      'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    icon: ServerIcon
   }
 ]
 
-export default function Example() {
+export default function ASD() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-screen-2xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-blue-600 sm:text-4xl">
-            En nuestros servidores de Backup podrás almacenar tus copias de seguridad de
-            forma totalmente personalizada
-          </p>
-          <p className="mx-auto mt-5 max-w-prose text-xl text-blue-600">
-            Elige en todo momento lo que quieres incluir en tus copias de seguridad:
-          </p>
-        </div>
-        <dl className="mt-12 space-y-10 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:grid-cols-4 lg:gap-x-8">
-          {features.map((feature) => (
-            <div key={feature.name} className="relative">
-              <dt>
-                <CheckIcon
-                  className="absolute h-6 w-6 text-green-500"
-                  aria-hidden="true"
+    <div className="overflow-hidden bg-white py-16 px-4 sm:px-6 lg:px-8 xl:py-36">
+      <div className="mx-auto max-w-screen-2xl">
+        <div className="relative">
+          <svg
+            className="absolute top-0 right-0 -mt-20 -mr-20 hidden md:block md:[overflow-anchor:none]"
+            width={404}
+            height={384}
+            fill="none"
+            viewBox="0 0 404 384"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="95e8f2de-6d30-4b7e-8159-f791729db21b"
+                x={0}
+                y={0}
+                width={20}
+                height={20}
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x={0}
+                  y={0}
+                  width={4}
+                  height={4}
+                  className="text-gray-200"
+                  fill="currentColor"
                 />
-                <p className="ml-9 text-lg font-medium leading-6 text-gray-900">
-                  {feature.name}
+              </pattern>
+            </defs>
+            <rect
+              width={404}
+              height={384}
+              fill="url(#95e8f2de-6d30-4b7e-8159-f791729db21b)"
+            />
+          </svg>
+          <svg
+            className="absolute bottom-0 left-0 -mb-20 -ml-20 hidden md:block md:[overflow-anchor:none]"
+            width={404}
+            height={384}
+            fill="none"
+            viewBox="0 0 404 384"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="7a00fe67-0343-4a3c-8e81-c145097a3ce0"
+                x={0}
+                y={0}
+                width={20}
+                height={20}
+                patternUnits="userSpaceOnUse"
+              >
+                <rect
+                  x={0}
+                  y={0}
+                  width={4}
+                  height={4}
+                  className="text-gray-200"
+                  fill="currentColor"
+                />
+              </pattern>
+            </defs>
+            <rect
+              width={404}
+              height={384}
+              fill="url(#7a00fe67-0343-4a3c-8e81-c145097a3ce0)"
+            />
+          </svg>
+          <div className="relative md:bg-white md:p-6">
+            <div className="lg:grid lg:grid-cols-2 lg:gap-6">
+              <div className="prose prose-lg prose-blue text-gray-500 lg:max-w-none border border-blue-600 rounded-lg	 mb-10 p-6 md:m-6 md:mb-10 lg:mb-0">
+                <div className="max-w-prose text-base lg:max-w-none">
+                  <h2 className="font-semibold leading-6 text-blue-600 mt-0">Modular</h2>
+                  <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+                    Elige en todo momento lo que quieres incluir en tus copias de
+                    seguridad:
+                  </p>
+                </div>
+                <ul role="list">
+                  <li>Configuraciones de cPanel</li>
+                  <li>Cron Jobs</li>
+                  <li>Directorios Home de tus cuentas</li>
+                  <li>Zonas DNS</li>
+                  <li>Certificados SSL</li>
+                  <li>Bases de datos y sus usuarios</li>
+                  <li>Cuentas de correo y su contenido</li>
+                  <li>Cuentas FTP</li>
+                  <li>
+                    Además, copia o excluye a tu elección cualquier cuenta, directorio o
+                    archivo que tengas en tu servidor.
+                  </li>
+                </ul>
+              </div>
+              <div className="prose prose-lg prose-blue text-gray-500 md:m-6">
+                <p className="font-bold">
+                  Además de todas las funciones avanzadas de las que dispone Jetbackup :
                 </p>
-              </dt>
-              <dd className="mt-2 ml-9 text-base text-gray-500">{feature.description}</dd>
+                <ul role="list">
+                  <li>Copias cifradas para proteger aún más tu información.</li>
+                  <li>
+                    Restauración fichero a fichero para reparaciones en el momento si algo
+                    sale mal.
+                  </li>
+                  <li>
+                    Integración con Imunify360 para restaurar automáticamente ficheros
+                    comprometidos ante una alerta de seguridad .
+                  </li>
+                  <li>
+                    Configura acciones en cascada personalizadas para que se ejecuten
+                    automáticamente antes o después de una tarea programada en Jetbackup
+                    (descargar un backup cuando termine de realizarse, programar una copia
+                    para cuando otra finalice, generar notificaciones tras una tarea...)
+                  </li>
+                  <li>
+                    Configura avisos a tus dispositivos para conocer el estado de tus
+                    backup sin acceder al servidor.
+                  </li>
+                </ul>
+                <p>
+                  Y mucho más usando la herramienta de copia de seguridad líder para
+                  cPanel. De la forma más completa, rápida y eficiente teniendo tus backup
+                  siempre disponibles.
+                </p>
+              </div>
             </div>
-          ))}
-        </dl>
+            <div className="relative py-16 sm:py-24 lg:py-32">
+              <div className="mx-auto px-4 text-center sm:px-6 lg:px-8">
+                <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                  {features.map((feature) => (
+                    <div key={feature.name} className="pt-6">
+                      <div className="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+                        <div className="-mt-6">
+                          <div>
+                            <span className="inline-flex items-center justify-center rounded-md bg-blue-600 p-3 shadow-lg">
+                              <feature.icon
+                                className="h-6 w-6 text-white"
+                                aria-hidden="true"
+                              />
+                            </span>
+                          </div>
+                          <h3 className="mt-8 text-lg font-medium tracking-tight text-blue-600">
+                            {feature.name}
+                          </h3>
+                          <p className="mt-5 text-base text-gray-500">
+                            {feature.description}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
