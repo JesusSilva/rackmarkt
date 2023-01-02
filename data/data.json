@@ -1,0 +1,570 @@
+{
+  "/": {
+    "hero": {
+      "title": {
+        "start": "Tus proyectos mas exigentes ",
+        "strong": "en las mejores manos",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/home/home.jpeg",
+      "imageAlt": "Home page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/dominios": {
+    "hero": {
+      "title": {
+        "start": "Tu dominio ",
+        "strong": "es la entrada ",
+        "end": "a tus servicios."
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/domains/home.jpeg",
+      "imageAlt": "Domains page image",
+      "buttons": [
+        {
+          "text": "Transferir",
+          "link": "#"
+        },
+        {
+          "text": "SSL",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/dominios/ssl": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "Asegura las comunicaciones ",
+        "end": "en tus conexiones"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/domains/ssl.jpeg",
+      "imageAlt": "SSL page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Hosting",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/home.jpg",
+      "imageAlt": "Hosting page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/wordpress": {
+    "hero": {
+      "title": {
+        "start": "¿Un hosting especialmente ",
+        "strong": "diseñado para Wordpress? ",
+        "end": "Aquí lo tienes."
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/wordpress.jpg",
+      "imageAlt": "Wordpress page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/woocommerce": {
+    "hero": {
+      "title": {
+        "start": "¿Un hosting especialmente ",
+        "strong": "diseñado para Wordpress? ",
+        "end": "Aquí lo tienes."
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/woocommerce.jpg",
+      "imageAlt": "WooCommerce page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/ssd-reseller": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "Tranquilidad ",
+        "end": "para tus clientes"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/ssd-reseller.jpg",
+      "imageAlt": "SSD Reseller page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/ssd-plus": {
+    "hero": {
+      "title": {
+        "start": "Para tus ",
+        "strong": "grandes ",
+        "end": "proyectos"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/ssd-plus.jpg",
+      "imageAlt": "SSD Plus page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/ssd-lite": {
+    "hero": {
+      "title": {
+        "start": "Para tus pequeños ",
+        "strong": "grandes ",
+        "end": "proyectos"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/ssd-lite.jpg",
+      "imageAlt": "SSD Lite page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/prestashop": {
+    "hero": {
+      "title": {
+        "start": "¿Un hosting especialmente ",
+        "strong": "diseñado para Wordpress? ",
+        "end": "Aquí lo tienes."
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/prestashop.jpg",
+      "imageAlt": "Prestashop page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/hosting/magento": {
+    "hero": {
+      "title": {
+        "start": "¿Magento ",
+        "strong": "rápido y seguro",
+        "end": "? Por supuesto"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/hostings/magento.jpg",
+      "imageAlt": "Magento page image",
+      "buttons": [
+        {
+          "text": "Dominios",
+          "link": "#"
+        },
+        {
+          "text": "Servidores",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/vps": {
+    "hero": {
+      "title": {
+        "start": "Entornos privados para ",
+        "strong": "todos los gustos",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/vps/home.jpeg",
+      "imageAlt": "VPS page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dedicados",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/vps/a-medida": {
+    "hero": {
+      "title": {
+        "start": "Entornos privados para ",
+        "strong": "todos los gustos",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/vps/a-medida.jpeg",
+      "imageAlt": "VPS A medida page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dedicados",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/vps/administrado": {
+    "hero": {
+      "title": {
+        "start": "Tus proyectos mas exigentes ",
+        "strong": "en las mejores manos",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/vps/administrado.jpeg",
+      "imageAlt": "VPS Administrado page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dedicados",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/vps/no-administrado": {
+    "hero": {
+      "title": {
+        "start": "Para aquellos que ",
+        "strong": "saben lo que hacen",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/vps/no-administrado.jpeg",
+      "imageAlt": "VPS No Administrados page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dedicados",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servidores-dedicados": {
+    "hero": {
+      "title": {
+        "start": "Servidores decidados: ",
+        "strong": "rendimiento y calidad ",
+        "end": "exclusivos para tu proyecto"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/dedicated/home.jpeg",
+      "imageAlt": "Dedicados page image",
+      "buttons": [
+        {
+          "text": "Solicitar presupuesto",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/housing": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/housing/home.jpeg",
+      "imageAlt": "Housing page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dedicados",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/cloud": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/cloud/home.jpeg",
+      "imageAlt": "Cloud page image",
+      "buttons": [
+        {
+          "text": "Microsoft 365",
+          "link": "#"
+        },
+        {
+          "text": "Google Workspace",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/cloud/microsoft-365": {
+    "hero": {
+      "title": {
+        "start": "Digitaliza tu negocio con ",
+        "strong": "Microsoft 365",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/cloud/microsoft-365.jpg",
+      "imageAlt": "Cloud Microsoft page image",
+      "buttons": [
+        {
+          "text": "Microsoft 365",
+          "link": "#"
+        },
+        {
+          "text": "Google Workspace",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/cloud/google-business": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/cloud/google-business.jpeg",
+      "imageAlt": "Cloud Google page image",
+      "buttons": [
+        {
+          "text": "Microsoft 365",
+          "link": "#"
+        },
+        {
+          "text": "Google Workspace",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servicios": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/services/home.jpeg",
+      "imageAlt": "Servicios page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dominios",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servicios/backup-externo": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "Copia y restaura",
+        "end": "tu cuenta en segundos"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/services/backup.jpeg",
+      "imageAlt": "Servicios Backup page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dominios",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servicios/cpanel": {
+    "hero": {
+      "title": {
+        "start": "Herramientas para profesionales web: ",
+        "strong": "cPanel",
+        "end": ""
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/services/cpanel.jpeg",
+      "imageAlt": "Servicios cPanel page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dominios",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servicios/plesk": {
+    "hero": {
+      "title": {
+        "start": "Herramientas para profesionales web: ",
+        "strong": "Plesk. ",
+        "end": "Mucho mas que un panel de control."
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/services/plesk.jpeg",
+      "imageAlt": "Servicios Plesk page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dominios",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servicios/litespeed": {
+    "hero": {
+      "title": {
+        "start": "LiteSpeed: ",
+        "strong": "rendimiento, seguridad y compatibilidad ",
+        "end": "mientras ahorras recursos."
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/services/litespeed.jpeg",
+      "imageAlt": "Servicios LiteSpeed page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dominios",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "/servicios/vpn": {
+    "hero": {
+      "title": {
+        "start": "",
+        "strong": "Servidores VPN:",
+        "end": "Mantente conectado sin que la privacidad sea una preocupación"
+      },
+      "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+      "image": "/images/heros/services/vpn.jpeg",
+      "imageAlt": "Servicios VPN page image",
+      "buttons": [
+        {
+          "text": "Hosting",
+          "link": "#"
+        },
+        {
+          "text": "Dominios",
+          "link": "#"
+        }
+      ]
+    }
+  }
+}

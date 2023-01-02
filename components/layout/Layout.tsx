@@ -2,22 +2,24 @@ import { useRouter } from 'next/router'
 import CallToAction from './CallToAction'
 import Footer from './Footer'
 import Header from './Header'
+import Hero from './Hero'
 
-type Props = {
-  children: React.ReactNode
-}
-
-function Layout({ children }: Props) {
-  const router = useRouter()
-
+export default function Layout({ children }: { children: React.ReactNode }) {
+  const { pathname } = useRouter()
   return (
     <>
-      {router.pathname !== '/404' && <Header />}
-      {children}
-      {router.pathname !== '/404' && <CallToAction />}
-      {router.pathname !== '/404' && <Footer />}
+      {pathname !== '/404' && <Header />}
+      {pathname !== '/404' && (
+        <main style={{ marginTop: '80px' }}>
+          <Hero />
+          {children}
+        </main>
+      )}
+      {pathname !== '/404' && <CallToAction />}
+      {pathname !== '/404' && <Footer />}
+
+      {/* Page Error 404 */}
+      {pathname === '/404' && children}
     </>
   )
 }
-
-export default Layout

@@ -122,6 +122,48 @@ const menu = {
       }
     ]
   },
+  servicios: {
+    title: 'Servicios',
+    href: '/servicios',
+    popover: true,
+    items: [
+      {
+        name: 'Backup Externo',
+        description:
+          'Manten a salvo tu servidor y tus proyectos con Jetbackup, la mejor herramienta de backup para cPanel.',
+        href: '/servicios/backup-externo',
+        icon: 'backup.svg'
+      },
+      {
+        name: 'VPN',
+        description:
+          'Navega de forma anónima y segura o crea una red privada para tus trabajadores en remoto.',
+        href: '/servicios/vpn',
+        icon: 'vpn.svg'
+      },
+      {
+        name: 'CPanel',
+        description:
+          'El panel de control para administrar servidores de alojamiento con automatización e interfaz gráfica web.',
+        href: '/servicios/cpanel',
+        icon: 'cpanel.svg'
+      },
+      {
+        name: 'Plesk',
+        description:
+          'El software de automatización de centros de datos y alojamiento basados en Linux y Windows.',
+        href: '/servicios/plesk',
+        icon: 'plesk.svg'
+      },
+      {
+        name: 'LiteSpeed',
+        description:
+          'Descubre el servidor web que hará que tu sitio web sea más rápido y eficiente.',
+        href: '/servicios/litespeed',
+        icon: 'litespeed.svg'
+      }
+    ]
+  },
   dedicados: {
     title: 'Dedicados',
     href: '/servidores-dedicados',
@@ -133,43 +175,6 @@ const menu = {
     href: '/housing',
     popover: false,
     items: []
-  },
-  servicios: {
-    title: 'Servicios',
-    href: '/servicios',
-    popover: true,
-    items: [
-      {
-        name: 'Backup Externo',
-        description: '',
-        href: '/servicios/backup-externo',
-        icon: 'backup.svg'
-      },
-      {
-        name: 'VPN',
-        description: '',
-        href: '/servicios/vpn',
-        icon: 'vpn.svg'
-      },
-      {
-        name: 'CPanel',
-        description: '',
-        href: '/servicios/cpanel',
-        icon: 'cpanel.svg'
-      },
-      {
-        name: 'Plesk',
-        description: '',
-        href: '/servicios/plesk',
-        icon: 'plesk.svg'
-      },
-      {
-        name: 'LiteSpeed',
-        description: '',
-        href: '/servicios/litespeed',
-        icon: 'litespeed.svg'
-      }
-    ]
   }
 }
 

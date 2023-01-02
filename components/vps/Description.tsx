@@ -5,8 +5,8 @@ import {
   LockClosedIcon
 } from '@heroicons/react/24/outline'
 import classNames from '../../utils/ClassNames'
-import Paragraph from '../texts/Paragraph'
-import Subtitle from '../texts/Subtitle'
+import Paragraph from '../shared/texts/Paragraph'
+import Subtitle from '../shared/texts/Subtitle'
 
 const features = [
   {

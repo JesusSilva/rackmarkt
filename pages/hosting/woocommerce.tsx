@@ -1,12 +1,10 @@
 import FirstText from '../../components/hostings/woocommerce/FirstText'
-import Hero from '../../components/hostings/woocommerce/Hero'
 import PricingAndText from '../../components/hostings/woocommerce/PricingAndText'
-import FAQ from '../../components/shared/FAQ'
+import FAQ from '../../components/shared/sections/FAQ'
 
 function wooCommerce() {
   return (
     <>
-      <Hero />
       <FirstText />
       <PricingAndText />
       <FAQ />
