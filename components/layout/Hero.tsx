@@ -20,6 +20,8 @@ export default function Hero() {
   const pathname = useRouter().pathname
   const data: HeroProps = getData(pathname, 'hero')
 
+  if (!data) return <></>
+
   return (
     <div className="relative bg-white">
       <main className="lg:relative">
